@@ -1,0 +1,340 @@
+*,
+body,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.logo {
+}
+
+.logo h2 {
+  font-size: 30px;
+}
+
+/* navbar */
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  align-items: center;
+  background-color: rgb(209, 60, 85);
+  color: white;
+}
+
+#text {
+  padding: 10px 10px;
+}
+
+img {
+  width: 35px;
+  height: 35px;
+  padding-right: 10px;
+}
+
+.logonav {
+  width: 60px;
+  height: 60px;
+}
+
+.logo {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  width: 40%;
+  transition: all 1s;
+}
+
+.ham {
+  width: 40px;
+  height: 40px;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 1em;
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+li a:hover {
+  color: rgb(154, 235, 32);
+}
+
+.bg-1 {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.bg-1 p {
+  font-size: 20px;
+}
+
+.alien {
+  width: 360px;
+  height: 400px;
+  display: flex;
+  align-self: center;
+}
+
+.textContent {
+  text-align: center;
+  padding-top: 110px;
+  /* border: 1px solid white; */
+  width: 50%;
+}
+
+.logoheader {
+  /* border: 1px solid yellow; */
+  padding-top: 20px;
+  width: 40%;
+}
+
+.textContent h1 {
+  font-size: 3.5em;
+  color: rgb(150, 228, 34);
+}
+
+.textContent p {
+  padding: 10px;
+}
+
+hr {
+  border: 3px solid rgb(209, 60, 85);
+  background-color: rgb(209, 60, 85);
+
+  width: 30%;
+  margin: auto;
+}
+
+.bg-2 {
+  /* border: 1px solid black; */
+  margin-top: 30px;
+}
+
+.skills {
+}
+
+span {
+  font-weight: lighter;
+  color: salmon;
+}
+
+.myphoto {
+  width: 150px;
+  height: 150px;
+  border: 1px solid silver;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textbg-2 {
+  padding: 50px 20px;
+  width: 80%;
+  margin: auto;
+}
+
+.textbg-2 p {
+  padding-bottom: 30px;
+  color: rgb(82, 82, 82);
+}
+
+.btn {
+  display: none;
+}
+
+h2 {
+  font-size: 35px;
+  padding: 20px 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.logoskills {
+  width: 100px;
+  height: 100px;
+}
+
+.grid-item {
+  background-color: rgb(209, 60, 85);
+  border: 1px solid silver;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 25px;
+  color: white;
+}
+.grid-item p {
+  color: white;
+}
+
+.webcaption {
+  font-size: 25px;
+  color: rgb(82, 82, 82);
+}
+
+.contactme {
+  width: 80%;
+  margin: auto;
+}
+
+.text {
+  color: white;
+}
+
+/*  */
+
+.listcontact p {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+  color: white;
+}
+
+.headcontact {
+  font-size: 18px;
+  color: rgb(163, 163, 163);
+}
+
+.listcontact {
+  font-size: 20px;
+  color: rgb(165, 164, 164);
+}
+
+.bg-contacts {
+  text-align: left;
+  height: 45vh;
+  border: 1px solid silver;
+  background-color: rgb(54, 54, 54);
+  padding: 25px;
+}
+
+.phone {
+  height: 50px;
+  width: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    width: 50%;
+  }
+  .contacthead p {
+    font-size: 25px;
+  }
+  .logoheader {
+    display: none;
+  }
+  .alien {
+    display: none;
+  }
+  .textContent {
+    width: 85%;
+  }
+  .textContent h1 {
+    font-size: 2em;
+  }
+  .grid-item p {
+    font-size: 20px;
+  }
+  .logonav {
+    width: 50px;
+    height: 50px;
+  }
+  .logo h2 {
+    font-size: 20px;
+  }
+  .logoskills {
+    width: 80px;
+    height: 80px;
+  }
+  .textContent h1 {
+    font-size: 2.5em;
+  }
+  .mycontact div p {
+    font-size: 15px;
+  }
+  .mycontact h2 {
+    color: white;
+    font-size: 20px;
+  }
+  .listcontact {
+    width: 100%;
+  }
+  .bg-contacts {
+    height: 50vh;
+  }
+  .contactme {
+    width: 100%;
+    margin: auto;
+  }
+  .listcontact p {
+    font-size: 15px;
+    font-family: verdana;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  nav ul {
+    display: none;
+    transform: translateX(100%);
+    transition: all 1s;
+  }
+  .sidenav {
+    display: flex;
+    position: absolute;
+    right: 0;
+    flex-direction: column;
+    height: 100vh;
+    top: 0;
+    margin-top: 85px;
+    background-color: rgb(209, 60, 85);
+    align-items: center;
+    justify-content: space-evenly;
+    transform: translateX(0);
+  }
+  .bg-1 h1 {
+    font-size: 40px;
+  }
+  .textContent {
+    width: 100%;
+  }
+  .logoheader {
+    display: none;
+  }
+  .alien {
+    display: none;
+  }
+  .btn {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .textContent h1 {
+    font-size: 1em;
+  }
+}
