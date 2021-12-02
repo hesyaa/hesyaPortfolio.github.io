@@ -335,6 +335,13 @@ h2 {
 
 @media screen and (max-width: 376px) {
   .textContent h1 {
-    font-size: 1em;
+    font-size: 2em;
+  }
+  .skills {
+    background-color: black;
+  }
+  .textbg-2 {
+    border: 1px solid white;
+    width: 90%;
   }
 }
